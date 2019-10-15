@@ -1,0 +1,27 @@
+{
+    "Name": "", 
+    "Capabilities": {
+        "AllowedTcpServerPorts": [], 
+        "SystemTime": true, 
+        "AllowedApplicationConnections": [
+            "685f13af-25a5-40b2-8dd8-8cbc253ecbd8"
+        ], 
+        "Uart": [], 
+        "AllowedUdpServerPorts": [], 
+        "SpiMaster": [], 
+        "I2cMaster": [], 
+        "Adc": [], 
+        "AllowedConnections": [], 
+        "Gpio": [
+            16, 
+            17, 
+            41, 
+            42
+        ], 
+        "WifiConfig": true
+    }, 
+    "CmdArgs": [], 
+    "EntryPoint": "", 
+    "SchemaVersion": 1, 
+    "ComponentId": "005180bc-402f-4cb3-a662-72937dbcde47"
+}

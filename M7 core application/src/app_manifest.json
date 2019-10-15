@@ -1,0 +1,25 @@
+{
+    "Name": "M7 Test", 
+    "Capabilities": {
+        "SystemTime": true, 
+        "AllowedApplicationConnections": [
+            "005180bc-402f-4cb3-a662-72937dbcde47"
+        ], 
+        "Uart": [
+            "$AVNET_AESMS_ISU0_UART"
+        ], 
+        "NetworkConfig": false, 
+        "I2cMaster": [
+            "$AVNET_AESMS_ISU2_I2C"
+        ], 
+        "AllowedConnections": [
+            "cloudiotdevice.googleapis.com"
+        ], 
+        "WifiConfig": true
+    }, 
+    "CmdArgs": [], 
+    "EntryPoint": "/bin/app", 
+    "ApplicationType": "Default", 
+    "SchemaVersion": 1, 
+    "ComponentId": "685f13af-25a5-40b2-8dd8-8cbc253ecbd8"
+}
